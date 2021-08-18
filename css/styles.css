@@ -1,0 +1,193 @@
+body {
+  font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #FFDEAA;
+}
+
+.space {
+  padding-top: 10px;
+}
+
+.font-1 {
+  padding-bottom: 1.5rem;
+  font-family: 'Happy Monkey', cursive;
+  line-height: 1.5;
+  font-size: 4rem;
+  color: #9E4700;
+  font-weight: bold;
+}
+
+.container {
+  padding: 3% 15% 15%;
+}
+
+.img-apple {
+  padding-bottom: 6px;
+}
+
+.spaxe {
+  padding: 0 1%;
+}
+
+/* Navigation Bar */
+
+
+.navbar-brand {
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+}
+
+
+/* Title Image */
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+
+
+/* feauter section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feauter-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+/* Testimonials section */
+
+#testimonials {
+  padding: 1% 1%;
+  text-align: center;
+  background-color: #DDC3AD;
+  color: #9E4700;
+}
+
+.testimonial-image {
+   width: 15%;
+   border-radius: 100%;
+   margin: 20px;
+}
+
+#press {
+  background-color: #DDC3AD;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 0;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.momomo {
+  font-size: 1.2rem;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+@media (max-width: 1200px) {
+  .title-image {
+    position: absolute;
+    right: 20%;
+  }
+}
+
+@media (max-width: 992px) {
+  .title-image {
+    position: absolute;
+    top: 60%;
+  }
+}
+
+@media (max-width: 770px) {
+  .title-image {
+    position: absolute;
+    top: 60%;
+    right: 7%;
+  }
+}
+
+@media (max-width: 770px) {
+  .title-image {
+    width: 0;
+    height: 0;
+  }
+  #title {
+    text-align: center;
+    padding: 5%;
+  }
+}
+
+
+/* Contacts Section */
+
+#cta {
+  background-color: #FFDEAA;
+  padding: 8%;
+  text-align: center;
+}
+
+.contact-section {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: #9E4700;
+  padding-bottom: 20px;
+}
+
+
+#footer {
+  padding: 3%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.brands-logo {
+  padding: 10px;
+}
